@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 repo="github.com/giantswarm/cll-operator-workshop"
-group_versions="GROUP:VERSION"
+group_versions="workshop:v1alpha1"
 
 dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
