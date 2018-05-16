@@ -11,7 +11,7 @@ import (
 //	apiVersion: apiextensions.k8s.io/v1beta1
 //	kind: CustomResourceDefinition
 //	metadata:
-//	  name: memcachedconfigs.provider.giantswarm.io
+//	  name: memcachedconfigs.workshop.continuouslifecycle.london
 //	spec:
 //	  group: workshop.continuouslifecycle.london
 //	  scope: Namespaced
