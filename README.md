@@ -1,8 +1,8 @@
 # cll-operator-workshop
 
-This a repo prepared for the https://continuouslifecycle.london/ Operator Workshop.
-It demonstrates how to create a basic operator using [operatorkit][operatorkit]
-and a generated CRD client.
+This is a repo prepared for the https://continuouslifecycle.london/ Operator
+Workshop. It demonstrates how to create a basic operator using
+[operatorkit][operatorkit] and a generated CRD client.
 
 ## Why Memcached?
 
