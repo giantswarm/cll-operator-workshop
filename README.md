@@ -51,6 +51,13 @@ connecting code in this case can look like:
 memcache.New("mycluster0000:11211", "mycluster0001:11211", "mycluster0002:11212")
 ```
 
+## apiextensions in docker
+
+```
+docker run -it -v C:/dir:/go/src/github.com/giantswarm/apiextensions golang bash
+```
+
+
 [gomemcache]: https://github.com/bradfitz/gomemcache
 [memcached]: https://memcached.org/
 [operatorkit]: https://github.com/giantswarm/operatorkit
