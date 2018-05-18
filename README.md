@@ -53,10 +53,12 @@ memcache.New("mycluster0000:11211", "mycluster0001:11211", "mycluster0002:11212"
 
 ## apiextensions in docker
 
-```
-docker run -it -v C:/dir:/go/src/github.com/giantswarm/apiextensions golang bash
-```
+For Windows you can run the script using the Golang docker image. Change C:/dir
+to the directory you hae github.com/giantswarm/apiextensions in your Gopath.
 
+```
+docker run -it -v c:/dir:/go/src/github.com/giantswarm/apiextensions golang bash
+```
 
 [gomemcache]: https://github.com/bradfitz/gomemcache
 [memcached]: https://memcached.org/
